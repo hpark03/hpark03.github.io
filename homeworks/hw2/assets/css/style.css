@@ -1,0 +1,92 @@
+body {
+	font-family: 'Karla';
+	background: #edeae5;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0px;
+    text-align: center;
+}
+
+div {
+	transition: linear 0.2s;
+}
+
+#container #third-row .circle {
+    background: #de6868;
+}
+
+.fancy.circle {
+    border-style: dotted;
+}
+
+.fancy {
+    background: #6392c0;
+}
+
+#second-row .circle:first-child {
+    opacity: 0;
+}
+
+#third-row .circle:first-child {
+    opacity: 0;
+}
+
+#fifth-row .circle:first-child {
+    opacity: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+    font-style: italic;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#container {
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    top: calc(50% - 240px);
+    left: calc(50% - 240px);
+}
+.circle {
+    width: 60px;
+    height: 60px;
+    background: white;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.circle:hover {
+    opacity: 0.5;
+}
+
+#second-row .circle:hover {
+    transform: scale(1.25);
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    background: #e67e22;
+    display: inline-block;
+    margin-right: 30px;
+}
+.row {
+    margin-bottom: 30px;
+}
+.green {
+    background: #6392c0;
+}
+.fancy {
+    border: 3px inset rgba(74, 74, 74, 0.25);
+    width: 54px;
+    height: 54px;
+    background: #6392c0;
+}
