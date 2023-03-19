@@ -1,0 +1,188 @@
+html {
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    font-family: Assistant;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    vertical-align:middle;
+}
+
+#layer-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    align-items: center;
+}
+
+#top-dog-logo {
+    width: 10%;
+}
+
+#top-dog-logo img {
+    width: 100%;
+    height: auto;
+}
+
+#tab-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.3vw;
+}
+
+.tab-bar-item:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: #5B0A0A;
+    animation-name: pulse;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+}
+
+#layer-2 {
+    display: flex;
+    padding: 0.8%;
+    background-color: #BA4343;
+    color: #D8D8D8;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    letter-spacing: 2em;
+    font-size: 1vw;
+}
+
+#layer-3 {
+    display: flex;
+    padding: 1.5%;
+    background-color: #5B0A0A;
+    color: #D8D8D8;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    letter-spacing: 0.2em;
+    font-size: 1.2vw;
+}
+
+#layer-3 .text {
+    width: 50%;
+    animation-name: miniPulse;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+#container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+}
+
+#container #frontimage img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#container #boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+#container #boxes .text {
+    width: 20%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    background-color: #ffe95c47;
+    font-size: 1.3vw;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#container #boxes .text:hover {
+    animation-name: pulse;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+}
+
+@keyframes pulse{
+	from { scale: 1; }
+    50% { scale: 1.1;}
+	to { scale: 1; }
+}
+
+
+@keyframes miniPulse{
+	from { scale: 1; }
+    50% { scale: 1.03;}
+	to { scale: 1; }
+}
+
+#our-story {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    line-height: 30px;
+    border-radius: 15px;
+    padding: 2%;
+    background-color: #5B0A0A;
+    color: rgb(220, 209, 209);
+}
+
+#menu #images {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu #images #item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#menu #images img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text {
+    font-size: smaller;
+}
