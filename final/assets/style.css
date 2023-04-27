@@ -1,0 +1,189 @@
+html {
+    background-color: #6B8274;
+    font-family: Quicksand;
+}
+
+
+
+#header {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title {
+    color: rgb(218, 218, 218);
+    font-size: 2.5vw;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+#instructions {
+    color: #073218;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-bottom: 1%;
+    animation-name: miniPulse;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+#display{
+    position: relative;
+    z-index: -1;
+    margin-top: 1%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.label {
+    color:#6B8274;
+    position: absolute;
+    top: 20%;
+    font-size: 2vw;
+}
+
+#enoki {
+    color:#2f261c;
+    text-shadow: 0 0 20px rgb(224, 224, 224);
+}
+
+#oyster {
+    color:#2f261c;
+    text-shadow: 0 0 20px rgb(224, 224, 224);
+
+}
+
+#portabella {
+    color:#2f261c;
+    text-shadow: 0 0 20px rgb(224, 224, 224);
+
+}
+
+#shiitake {
+    color:#2f261c;
+    text-shadow: 0 0 20px rgb(224, 224, 224);
+}
+
+#button {
+    color:#2f261c;
+    text-shadow: 0 0 20px rgb(224, 224, 224);
+}
+
+
+
+
+
+#EXPLORE {
+    margin-top: 1%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#explore_button {
+    background-color: #2D4D39;
+    letter-spacing: 0.2em;
+    color: rgb(218, 218, 218);
+    padding: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#explore_button:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.arrow {
+    margin-top: 1%;
+    text-align: center;
+}
+
+#right img:hover {
+    cursor: pointer;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+#left img:hover {
+    cursor: pointer;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.arrow img {
+    width: 30%;
+    height: auto;
+}
+
+
+
+#plates {
+    margin: 3%;
+    text-align: center;
+    padding: 10%;
+}
+
+.plate {
+    color:#6B8274;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    font-size: 2vw;
+}
+
+#bod {
+    background-color: rgb(53, 53, 53);
+    margin-top: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mush {
+    text-align: center;
+}
+
+.mush img {
+    width: 50%;
+    height: auto;
+}
+
+
+
+
+.hidden {
+    display: none;
+}
+
+.jump {
+    animation-name: jump;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes miniPulse{
+	from { scale: 1; }
+    50% { scale: 1.03;}
+	to { scale: 1; }
+}
+
+@keyframes pulse{
+	from { scale: 1; }
+    50% { scale: 1.1;}
+	to { scale: 1; }
+}
